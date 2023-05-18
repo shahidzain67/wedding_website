@@ -6,7 +6,7 @@ disableKinds = ["section", "taxonomy", "term", "RSS", "robotsTXT"]
 defaultContentLanguage = "en"
 
 # The name of this wonderful theme ;-).
-theme = "hugo-scroll-original"
+theme = "hugo-scroll"
 
 # The browser tab name
 title = "Alya and Zain's Wedding"
@@ -38,7 +38,7 @@ enableGitInfo = false
     title = "Alya and Zain's Wedding"
 
     # The "description" of your website. This is used in the meta data of your generated html.
-    description = "Alya and Zain's Wedding"
+    description = ""
 
     # A "copyright"-line to be added at the bottom of the page.
     # Hint: Plain HTML is supported in here as well. So you may e.g. add a link to your legal imprint-page.
