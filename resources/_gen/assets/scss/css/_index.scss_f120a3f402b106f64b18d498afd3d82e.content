@@ -1,30 +1,30 @@
 :root {
   /* === Cover / Landing area === */
-  --cover-text-color: #37501a;
+  --cover-text-color: #b4852c;
   /* Used for Landing screen menu buttons, but potentially usable for highlighting other things */
-  --highlight: #86c440;
+  --highlight: #b4852c;
   --highlight-contrast: var(--cover-text-color);
   /*iverse colors used for :hover */
   --highlight-inverse: var(--cover-text-color);
   --highlight-inverse-contrast: white;
   /* visual guard around title and description, when the feature is enabled */
-  --cover-title-and-description-guard-bg-color: rgba(255, 255, 255, 0.6);
+  --cover-title-and-description-guard-bg-color: #b4852c;
   --cover-title-text-shadow: white 0px 0px 7px;
   /* === sticky top/left navigation menus === */
-  --sticky-menu-text-color: #9fd067;
+  --sticky-menu-text-color: #b4852c;
   /* === Alternating content (post) sections  === */
   /* Light section - text color */
-  --section-light-text-color: #3a4145;
+  --section-light-text-color: #b4852c;
   /* Light section - background color */
-  --section-light-bg-color: #fbf9ec;
+  --section-light-bg-color: #ffffff;
   /* Dark section - text color */
   --section-dark-text-color: var(--section-light-bg-color);
   /* Dark section - background color */
-  --section-dark-bg-color: #dab77a;
+  --section-dark-bg-color: #b4852c;
   /* Light&Dark section >quote. Supressive color, compared to 'Light section - text color'*/
   --section-uni-quote: grey;
   /* Light&Dark section `code` a bit darker than 'Light section - background color' */
-  --section-uni-code-bg-color: #e0ded7;
+  --section-uni-code-bg-color: #b4852c;
   /* === Footer === */
   --footer-color-background: #22343a;
   --footer-color: #bbc7cc; }
@@ -45,7 +45,8 @@ body {
   /* can't be used together with video */
   background: var(--section-light-bg-color) no-repeat center center; }
 
-#site-head, #site-head.withCenteredImage {
+#site-head,
+#site-head.withCenteredImage {
   position: relative;
   display: table;
   width: 100%;
@@ -56,7 +57,8 @@ body {
   background-size: cover;
   /* Big cover video at the landing area */
   /** The arrow button to scroll to content */ }
-  #site-head video, #site-head.withCenteredImage video {
+  #site-head video,
+  #site-head.withCenteredImage video {
     bottom: 0;
     height: 100%;
     min-width: 100%;
@@ -67,26 +69,30 @@ body {
     top: 0;
     width: auto;
     z-index: -100; }
-  #site-head .title-and-description-guard, #site-head.withCenteredImage .title-and-description-guard {
+  #site-head .title-and-description-guard,
+  #site-head.withCenteredImage .title-and-description-guard {
     margin: auto;
     padding: 0.6em;
     background-color: var(--cover-title-and-description-guard-bg-color);
     border-radius: 25px;
     width: fit-content; }
-  #site-head .blog-title, #site-head.withCenteredImage .blog-title {
+  #site-head .blog-title,
+  #site-head.withCenteredImage .blog-title {
     margin: 10px 0 10px 0;
     font-size: 5rem;
     letter-spacing: -1px;
     text-shadow: var(--cover-title-text-shadow); }
-  #site-head .blog-description, #site-head.withCenteredImage .blog-description {
+  #site-head .blog-description,
+  #site-head.withCenteredImage .blog-description {
     margin: 0;
     font-size: 2.5rem;
     line-height: 1.5em;
     font-weight: 400;
-    font-family: "Roboto Slab", serif;
+    font-family: "Dancing Script", serif;
     letter-spacing: 0;
     text-shadow: var(--cover-title-text-shadow); }
-  #site-head a.btn, #site-head.withCenteredImage a.btn {
+  #site-head a.btn,
+  #site-head.withCenteredImage a.btn {
     text-decoration: none;
     background-color: var(--highlight);
     color: var(--highlight-contrast);
@@ -101,13 +107,15 @@ body {
     position: relative;
     margin-top: 2rem;
     cursor: pointer;
-    font-family: "Oswald", sans-serif;
+    font-family: "Dancing Script";
     text-transform: uppercase;
     font-weight: lighter; }
-    #site-head a.btn:hover, #site-head.withCenteredImage a.btn:hover {
+    #site-head a.btn:hover,
+    #site-head.withCenteredImage a.btn:hover {
       color: var(--highlight-inverse-contrast);
       background-color: var(--highlight-inverse); }
-  #site-head #header-arrow, #site-head.withCenteredImage #header-arrow {
+  #site-head #header-arrow,
+  #site-head.withCenteredImage #header-arrow {
     font-size: 140px;
     margin: -10px auto;
     text-align: center;
@@ -120,7 +128,8 @@ body {
     transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s; }
-    #site-head #header-arrow:hover, #site-head.withCenteredImage #header-arrow:hover {
+    #site-head #header-arrow:hover,
+    #site-head.withCenteredImage #header-arrow:hover {
       color: inherit;
       opacity: 0.9; }
 
@@ -134,7 +143,7 @@ body {
   position: fixed;
   top: 40px;
   z-index: 99999;
-  font-family: "Open Sans Condensed", sans-serif;
+  font-family: "Dancing Script";
   text-transform: uppercase;
   font-size: 1.5rem;
   line-height: 130%;
@@ -221,7 +230,7 @@ a.fn-item {
 .site-footer {
   background: var(--footer-color-background);
   color: var(--footer-color);
-  font-family: "Open Sans", sans-serif;
+  font-family: "Dancing Script";
   font-size: 1.3rem;
   position: relative;
   margin: 0rem 0 0 0;
