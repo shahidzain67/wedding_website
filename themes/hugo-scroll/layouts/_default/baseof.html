@@ -20,10 +20,9 @@
 
   <script src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
-  <!-- A partial to be overwritten by the user.
-             Simply place a custom_body.html into
-             your local /layouts/partials-directory -->
-  {{- partials " custom_body.html" . -}}
+  <!-- activate css-vars-ponyfill.min.js -->
+  <script>cssVars();</script>
+
 </body>
 
 </html>

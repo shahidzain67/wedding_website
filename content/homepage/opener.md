@@ -10,5 +10,4 @@ weight: 1
 ![Dua](images/dua.png)
 
   
-
-<font size="5"> *May Allah bless you, and shower His blessings upon you, and join you together in goodness* </font>
+##### *May Allah bless you, and shower His blessings upon you, and join you together in goodness*

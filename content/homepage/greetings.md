@@ -10,7 +10,6 @@ Together with their families Alya Omar and Zain Shahid invite you to celebrate t
 
 ---
 ### Schedule
-<p style="text-align: center;">
 
 3.30pm -> Please arrive promptly
 
@@ -19,4 +18,3 @@ Together with their families Alya Omar and Zain Shahid invite you to celebrate t
 5.00pm -> Bride and groom entrance 
 
 6.00pm -> Dinner
-</p>
