@@ -10,8 +10,7 @@ Together with their families Alya Omar and Zain Shahid invite you to celebrate t
 
 ---
 ### Venue
-Froyle Park Country Estate, 
-Ryebridge Lane, Alton, GU34 4JY
+Froyle Park Country Estate, Ryebridge Lane, Alton, GU34 4JY
 
 
 
