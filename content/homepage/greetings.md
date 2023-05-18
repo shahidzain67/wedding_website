@@ -9,12 +9,6 @@ header_menu: false
 Together with their families Alya Omar and Zain Shahid invite you to celebrate their wedding
 
 ---
-### Venue
-Froyle Park Country Estate, Ryebridge Lane, Alton, GU34 4JY
-
-
-
----
 ### Schedule
 
 Please arrive promptly at 4.00pm
