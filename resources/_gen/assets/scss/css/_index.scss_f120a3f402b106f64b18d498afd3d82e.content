@@ -258,7 +258,8 @@ body {
   font-family: "Dancing Script", sans-serif;
   font-size: 3rem;
   line-height: 1.6em;
-  color: var(--section-light-text-color); }
+  color: var(--section-light-text-color);
+  text-align: center; }
 
 ::-moz-selection {
   color: #222;
@@ -273,10 +274,7 @@ body {
 /** =========== Headings =========== */
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3 {
   text-rendering: optimizeLegibility;
   line-height: 1;
   margin-top: 1;
@@ -290,7 +288,7 @@ h6 {
   text-rendering: optimizeLegibility;
   line-height: 120%;
   margin-top: 1;
-  font-family: "Open Sans", sans-serif;
+  font-family: "Dancing Script", sans-serif;
   margin-bottom: 0%; }
 
 h1 {

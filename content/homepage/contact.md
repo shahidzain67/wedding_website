@@ -4,8 +4,11 @@ weight: 5
 header_menu: false
 ---
 
-{{<icon class="fa fa-envelope">}}&nbsp;[mail@janedoe.com](mailto:your-email@your-domain.com)
+For any questions, or to RSVP:
 
-{{<icon class="fa fa-phone">}}&nbsp;[+49 1111 555555](tel:+491111555555)
+{{<icon class="fa fa-envelope">}}&nbsp;[shahidzain67@gmail.com](mailto:shahidzain67@gmail.com)
 
-Let us get in touch!
+{{<icon class="fa fa-phone">}}&nbsp;Shiraz Omar: [+44 7813 857156](tel:+447813857156)
+
+{{<icon class="fa fa-phone">}}&nbsp;Shahid Tariq: [+44 7808 167414](tel:+447808167414)
+
