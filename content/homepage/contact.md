@@ -6,7 +6,7 @@ header_menu: false
 
 For any questions, or to RSVP:
 
-{{<icon class="fa fa-envelope">}}&nbsp;[shahidzain67@gmail.com](mailto:shahidzain67@gmail.com)
+{{<icon class="fa fa-envelope">}}&nbsp;[alyaandzainwedding@gmail.com](mailto:alyaandzainwedding@gmail.com)
 
 {{<icon class="fa fa-phone">}}&nbsp;Shiraz Omar: [+44 7813 857156](tel:+447813857156)
 
