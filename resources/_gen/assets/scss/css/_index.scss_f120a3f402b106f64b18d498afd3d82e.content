@@ -161,7 +161,8 @@ a.fn-item {
 
 /* ========= Content ==========*/
 .post-title {
-  margin: 0; }
+  margin: 0;
+  font-size: 80px; }
   .post-title a {
     text-decoration: none; }
 
@@ -255,7 +256,7 @@ html {
 body {
   height: 100%;
   max-height: 100%;
-  font-family: "Dancing Script", sans-serif;
+  font-family: "Playfair Display Med";
   font-size: 3rem;
   line-height: 1.6em;
   color: var(--section-light-text-color);
@@ -279,7 +280,7 @@ h3 {
   line-height: 1;
   margin-top: 1;
   margin-bottom: 10px;
-  font-family: 'Open Sans'; }
+  font-family: 'Playfair Display Med'; }
 
 h3,
 h4,
@@ -288,7 +289,7 @@ h6 {
   text-rendering: optimizeLegibility;
   line-height: 120%;
   margin-top: 1;
-  font-family: "Dancing Script", sans-serif;
+  font-family: "Playfair Display Med";
   margin-bottom: 0%; }
 
 h1 {
@@ -322,6 +323,7 @@ p {
 a {
   color: inherit;
   transition: all ease 0.3s;
+  text-decoration: none;
   -webkit-transition: all ease 0.3s;
   -moz-transition: all ease 0.3s; }
   a:hover {
@@ -402,7 +404,7 @@ tt {
   color: var(--section-light-text-color);
   background-color: var(--section-uni-code-bg-color);
   border-radius: 3px;
-  font-family: "Dancing Script", sans-serif;
+  font-family: "Playfair Display Med";
   font-size: 0.75em;
   padding: 3px 5px; }
 
@@ -410,7 +412,7 @@ code {
   color: var(--section-light-text-color);
   background-color: var(--section-uni-code-bg-color);
   border-radius: 3px;
-  font-family: "Dancing Script", sans-serif;
+  font-family: "Playfair Display Med";
   font-size: 0.75em;
   padding: 3px 5px; }
 
@@ -421,7 +423,7 @@ pre {
   border-radius: 3px;
   box-sizing: border-box;
   -moz-box-sizing: border-box;
-  font-family: "Dancing Script", sans-serif;
+  font-family: "Playfair Display Med";
   font-size: 0.9em;
   margin: 1.6em 0;
   padding: 10px;
