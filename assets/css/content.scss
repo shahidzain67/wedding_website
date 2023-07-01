@@ -52,13 +52,15 @@ h6 {
 }
 
 h1 {
-    font-size: 5rem;
+    text-rendering: optimizeLegibility;
+    font-size: 3rem;
     line-height: 1.2em;
     letter-spacing: -2px;
     text-indent: -3px;
 }
 
 h2 {
+    text-rendering: optimizeLegibility;
     font-size: 2rem;
     line-height: 1.2em;
     letter-spacing: -1px;
@@ -258,7 +260,7 @@ table {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     border-spacing: 0;
-    margin: 1.6em 0;
+    margin: 0.5em 0;
     width: 120%;
     max-width: 120%;
     background-color: transparent;
